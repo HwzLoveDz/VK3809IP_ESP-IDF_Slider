@@ -1,0 +1,23 @@
+{
+    "idf.adapterTargetName": "esp32s3",
+    "idf.portWin": "COM25",
+    "idf.openOcdConfigs": [
+        "interface/ftdi/esp32_devkitj_v1.cfg",
+        "target/esp32s3.cfg"
+    ],
+    "files.associations": {
+        "cstddef": "cpp",
+        "led_strip_encoder.c": "cpp",
+        "array": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "regex": "cpp",
+        "*.tcc": "cpp",
+        "ratio": "cpp",
+        "system_error": "cpp",
+        "functional": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp"
+    }
+}
